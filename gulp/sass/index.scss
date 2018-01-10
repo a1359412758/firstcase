@@ -1,0 +1,286 @@
+@charset "utf-8";
+body,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+img,
+input,
+legend,
+li,
+ol,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "微软雅黑";
+}
+li,
+ol,
+ul {
+    list-style: none;
+}
+b,
+strong {
+    font-weight: 100;
+}
+em,
+i {
+    font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+    font-size: 16px;
+}
+a,
+u {
+    text-decoration: none;
+}
+input {
+    outline: none;
+}
+img {
+    display: block;
+    border: 0;
+}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+#header,#banner,
+body {
+    margin: 0 auto;
+    width: 1200px;
+}
+body {
+    background: url("../img/dzrb_bg.jpg") top center no-repeat;
+}
+#header {
+    height: 69px;
+    padding-top: 4px;
+    img {
+        float: left;
+        width: 76px;
+        height: 69px;
+    }
+    .box1 {
+        float: left;
+        width: 410px;
+        height: 69px;
+        .bt {
+            float: left;
+            width: 410px;
+            height: 28px;
+            i {
+                display: block;
+                width: 156px;
+                height: 23px;
+                float: left;
+                line-height: 23px;
+                font-size: 12px;
+            }
+            span {
+                display: block;
+                width: 61px;
+                height: 21px;
+                background: url("../img/dzrb_cat.png") top right no-repeat;
+                float: left;
+            }
+        }
+        .bom {
+            width: 410px;
+            height: 30px;
+            padding-top: 4px;
+            font-size: 17px;
+            float: left;
+            line-height: 30px;
+        }
+    }
+    .box2 {
+
+        width: 700px;
+        height: 69px;
+        float: left;
+        .brt {
+            
+            float: left;
+            height: 23px;
+            width: 553px;
+            padding-left: 159px;
+            ul {
+                
+                float: left;
+                font-size: 12px;
+                width: 397px;
+                li {
+                    float: left;
+                    a {
+                        text-align: center;
+                        display: block;
+                        width: 52px;
+                        height: 23px;
+                        line-height: 23px;
+                        padding: 0 4px;
+                        color: #296c12;
+                    }
+                    .a1 {
+                        padding-left: 10px;
+                        background: url("../img/dzrb_comment.gif") left 4px no-repeat;
+
+                    }
+                }
+            }
+            .xb {
+                float: left;
+                width: 115px;
+                height: 26px;
+                .a1 {
+                    text-align: center;
+                    float: left;
+                    width: 49px;
+                    height: 22px;
+                    line-height: 22px;
+                    border-radius: 2px;
+                    background: #FFFAF0;
+                    font-size: 12px;
+                }
+                .a2 {
+                    text-align: center;
+                    float: right;
+                    width: 49px;
+                    height: 22px;
+                    line-height: 22px;
+                    border-radius: 2px;
+                    background: #FFFAF0;
+                    font-size: 12px;
+                }
+            }
+        }
+        .brb {
+            background:url(../img/dzrb_comment.gif) right -124px no-repeat;
+            margin-top: 21px;
+            width: 712px;
+            height: 25px;
+            float: left;
+            p {
+                float: left;
+                width: 251px;
+                height: 25px;
+                background: url("../img/dzrb_comment.gif") left -154px no-repeat;
+            }
+            ul {
+                background: url("../img/dzrb_comment.gif") left -122px no-repeat;
+                padding: 0 55px;
+                float: left;
+                width: 131px;
+                height: 23px;
+                .li1 {
+                    .a3 {
+                        width: 64px;
+                        height: 20px;
+                        float: left;
+                        color: #fff;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+
+                }
+                .li2 {
+                    .a4 {
+                        color: #00FEF5;
+                        float: left;
+                        width: 58px;
+                        height: 20px;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+
+                }
+            }
+            form {
+                position: relative;
+                float: left;
+                width: 198px;
+                height: 23px;
+                background: url("../img/dzrb_comment.gif") left -122px no-repeat;
+                .in1 {
+                    padding-left: 16px;
+                    border: 0;
+                    width: 162px;
+                    height: 20px;
+                    background: url("../img/dzrb_comment.gif") -65px top no-repeat;
+                }
+                .in2 {
+                    position: absolute;
+                    right: 36px;
+                    border: 0;
+                    width: 35px;
+                    height: 16px;
+                    background: 0;
+                }
+            }
+        }
+    }
+}
+#banner{
+    height:340px;
+    position:relative;
+    a{
+        position: absolute;
+        img{
+            width:1200px;
+            height:340px;
+            display:block;
+        }
+    }
+    .a1{z-index:1}
+    #meau{
+        display:block;
+        position: absolute;
+        left:-46px;
+    }
+    ul{ position:absolute;
+        z-index: 1000;
+        width:150px;
+        height:20px;
+        right:120px;
+        bottom:10px;
+        li{ 
+            
+            display:block;
+            width:20px;
+            height:20px;
+            border-radius: 10px;
+            float:left;
+            background:#FFFAFA;
+            margin-right:10px;
+            opacity: 0.5;
+            line-height: 20px;
+            font-size: 12px;
+            text-align: center;
+        }
+        
+    }
+}
